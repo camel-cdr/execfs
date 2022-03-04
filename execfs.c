@@ -7,7 +7,7 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <stddef.h>
-#include <cauldron/stretchy-buffer.h>
+#include "stretchy-buffer.h"
 
 typedef Sb(char) sb_char;
 
