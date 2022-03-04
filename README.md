@@ -38,6 +38,9 @@ char *kernel =
 ;
 ```
 
+The command must be wrapped in parentheses, possibly preceded and succeeded by a unique string that doesn't occur inside the command.
+This is needed to distinguish between actual commands that should be executed, and other OS related filesystem quarries.
+
 Since include directives don't allow for the inclusion of  `'`, `\`, `"`, `//`, and `/*` characters, the following escape sequences are supported:
 
 | sequence | replacement |
